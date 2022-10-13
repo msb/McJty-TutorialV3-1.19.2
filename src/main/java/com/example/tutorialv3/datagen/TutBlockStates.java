@@ -20,6 +20,8 @@ public class TutBlockStates extends BlockStateProvider {
         simpleBlock(Registration.MYSTERIOUS_ORE_END.get());
         simpleBlock(Registration.MYSTERIOUS_ORE_DEEPSLATE.get());
 
+        simpleBlock(Registration.MYSTERIOUS_ORE_OVERWORLD.get());
+
         // MYSTERIOUS_ORE_OVERWORLD is re-purposed as a screen.
         // TODO currently it can only face one way.
         BlockModelBuilder builder = models().getBuilder("block/mysterious_ore_overworld");

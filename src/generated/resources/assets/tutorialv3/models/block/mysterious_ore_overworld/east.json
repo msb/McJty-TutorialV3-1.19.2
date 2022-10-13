@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#back"
+        },
+        "east": {
+          "texture": "#screen"
+        },
+        "north": {
+          "texture": "#back"
+        },
+        "south": {
+          "texture": "#back"
+        },
+        "up": {
+          "texture": "#back"
+        },
+        "west": {
+          "texture": "#back"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "all": "tutorialv3:block/mysterious_ore_overworld",
+    "back": "minecraft:block/iron_block",
+    "screen": "tutorialv3:block/mysterious_ore_overworld"
+  }
+}

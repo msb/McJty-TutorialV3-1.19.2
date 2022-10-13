@@ -23,6 +23,3 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
-
-# generated from "data" task
-src/generated
