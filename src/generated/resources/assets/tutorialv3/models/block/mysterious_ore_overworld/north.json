@@ -35,7 +35,6 @@
     }
   ],
   "textures": {
-    "all": "tutorialv3:block/mysterious_ore_overworld",
     "back": "minecraft:block/iron_block",
     "screen": "tutorialv3:block/mysterious_ore_overworld"
   }

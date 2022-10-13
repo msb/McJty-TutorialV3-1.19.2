@@ -2,47 +2,50 @@
   "multipart": [
     {
       "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/east"
-      }
-    },
-    {
-      "when": {
-        "facing": "north"
+        "model": "tutorialv3:block/mysterious_ore_overworld/down"
       },
-      "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/north"
-      }
-    },
-    {
-      "when": {
-        "facing": "south"
-      },
-      "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/south"
-      }
-    },
-    {
-      "when": {
-        "facing": "west"
-      },
-      "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/west"
-      }
-    },
-    {
-      "when": {
-        "facing": "up"
-      },
-      "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/up"
-      }
-    },
-    {
       "when": {
         "facing": "down"
-      },
+      }
+    },
+    {
       "apply": {
-        "model": "tutorialv3:block/mysterious_ore_overworld/down"
+        "model": "tutorialv3:block/mysterious_ore_overworld/up"
+      },
+      "when": {
+        "facing": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld/north"
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld/south"
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld/west"
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld/east"
+      },
+      "when": {
+        "facing": "east"
       }
     }
   ]
