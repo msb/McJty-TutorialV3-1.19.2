@@ -1,7 +1,9 @@
 package com.example.tutorialv3.blocks;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
@@ -21,6 +23,8 @@ import static com.example.tutorialv3.setup.Registration.ORE_PROPERTIES;
  */
 public class AnimatedOreBlock extends Block {
 
+    public static final ScreenStateProperty SCREEN = ScreenStateProperty.create();
+
     public static final Logger LOGGER = LogManager.getLogger();
 
     public AnimatedOreBlock() {
@@ -30,35 +34,60 @@ public class AnimatedOreBlock extends Block {
     @Override
     protected void createBlockStateDefinition(@Nonnull StateDefinition.Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
-        builder.add(BlockStateProperties.FACING);
+        builder.add(SCREEN);
     }
 
     @Override
     public BlockState getStateForPlacement(@Nonnull BlockPlaceContext context) {
         BlockState bs = super.getStateForPlacement(context);
+        ClientLevel level = Minecraft.getInstance().level;
+
+        Direction facing = context.getNearestLookingDirection().getOpposite();
+        BlockPos clickedPos = context.getClickedPos();
+
+        for (Direction direction: Direction.values()) {
+            BlockState adjoiningBlockState = level.getBlockState(clickedPos.relative(direction));
+            String adjoiningBlockName = adjoiningBlockState.getBlock().getName().getString();
+            if (adjoiningBlockName.equals("Screen")) {
+                ScreenState adjoiningScreenState = adjoiningBlockState.getValue(SCREEN);
+                // FIXME simplified
+                ScreenState newScreenState = new ScreenState(adjoiningScreenState.direction,
+                        adjoiningScreenState.x + (direction == Direction.DOWN ? 0 : 1),
+                        adjoiningScreenState.y + (direction == Direction.DOWN ? 1 : 0)
+                );
+                // FIXME helper method on ScreenState
+                if (newScreenState.x < 10 && newScreenState.y < 10) {
+                    return bs.setValue(SCREEN, newScreenState);
+                }
+            }
+        }
+        return bs.setValue(SCREEN, new ScreenState(facing, 0, 0));
+    }
+
+    // found an implementation of this - keeping hold of it for now.
+    public Direction getNearestLookingDirection() {
         LocalPlayer player = Minecraft.getInstance().player;
-        Direction facing;
+        Direction looking;
         if (player.getXRot() > 45) {
-            facing = Direction.UP;
+            looking = Direction.DOWN;
         } else if (player.getXRot() < -45) {
-            facing = Direction.DOWN;
+            looking = Direction.UP;
         } else {
             switch (mod(Math.round(player.getYRot() / 90), 4)) {
                 case 0:
-                    facing = Direction.NORTH;
+                    looking = Direction.SOUTH;
                     break;
                 case 1:
-                    facing = Direction.EAST;
+                    looking = Direction.WEST;
                     break;
                 case 2:
-                    facing = Direction.SOUTH;
+                    looking = Direction.NORTH;
                     break;
                 default:
-                    facing = Direction.WEST;
+                    looking = Direction.EAST;
             }
         }
-        LOGGER.info("facing: " + facing);
-        return bs.setValue(BlockStateProperties.FACING, facing);
+        return looking;
     }
 
     // A modulo method that works like python

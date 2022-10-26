@@ -2,10 +2,15 @@
   "multipart": [
     {
       "apply": {
+        "model": "minecraft:block/iron_block"
+      }
+    },
+    {
+      "apply": {
         "model": "tutorialv3:block/mysterious_ore_overworld"
       },
       "when": {
-        "facing": "north"
+        "cinema": "north_0_0"
       }
     },
     {
@@ -14,7 +19,7 @@
         "y": 90
       },
       "when": {
-        "facing": "east"
+        "cinema": "east_0_0"
       }
     },
     {
@@ -23,7 +28,7 @@
         "y": 180
       },
       "when": {
-        "facing": "south"
+        "cinema": "south_0_0"
       }
     },
     {
@@ -32,7 +37,7 @@
         "y": 270
       },
       "when": {
-        "facing": "west"
+        "cinema": "west_0_0"
       }
     },
     {
@@ -41,7 +46,7 @@
         "x": 90
       },
       "when": {
-        "facing": "down"
+        "cinema": "down_0_0"
       }
     },
     {
@@ -50,7 +55,5254 @@
         "x": 270
       },
       "when": {
-        "facing": "up"
+        "cinema": "up_0_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_0_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_1_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_2_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_3_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_4_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_5_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_6_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_7_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_8_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_2"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_5"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta"
+      },
+      "when": {
+        "cinema": "north_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/terracotta",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite"
+      },
+      "when": {
+        "cinema": "north_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/diorite",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_8"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld"
+      },
+      "when": {
+        "cinema": "north_9_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 90
+      },
+      "when": {
+        "cinema": "east_9_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 180
+      },
+      "when": {
+        "cinema": "south_9_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "y": 270
+      },
+      "when": {
+        "cinema": "west_9_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 90
+      },
+      "when": {
+        "cinema": "down_9_9"
+      }
+    },
+    {
+      "apply": {
+        "model": "tutorialv3:block/mysterious_ore_overworld",
+        "x": 270
+      },
+      "when": {
+        "cinema": "up_9_9"
       }
     }
   ]

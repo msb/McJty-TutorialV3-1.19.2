@@ -1,8 +1,8 @@
-// 1.19.2	2022-10-14T08:49:30.6493798	Block States: tutorialv3
+// 1.19.2	2022-10-25T18:24:43.4864783	Block States: tutorialv3
 13829d05639239d29cbe74fe23a548d9623c5b9b assets/tutorialv3/blockstates/mysterious_ore_deepslate.json
 b3be06707278a5e8ebe23cac6e6521caea78d86e assets/tutorialv3/blockstates/mysterious_ore_end.json
 26b670b783b69c4cc185f3179c196bddd62a187f assets/tutorialv3/blockstates/mysterious_ore_nether.json
-a67e570c1a0439f5cb237c5ea4596a662935fea6 assets/tutorialv3/blockstates/mysterious_ore_overworld.json
+c2531aba6c4de4920669290134ce3533f6569cd6 assets/tutorialv3/blockstates/mysterious_ore_overworld.json
 2f66e0316007481faadc1ef4c73131f8c355bf96 assets/tutorialv3/models/block/mysterious_ore_deepslate.json
 39bfbdde2417b187e94b13c90850f87d74b38775 assets/tutorialv3/models/block/mysterious_ore_end.json
 399b83bc8c6771cbab4aa7dc5921ad73cfe83c67 assets/tutorialv3/models/block/mysterious_ore_nether.json
