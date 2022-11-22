@@ -4,4 +4,3 @@ Attempting get the code in the McJty Minecraft Modding Tutorial working with the
 
 ## Issues
 
-- Loot table generation fails the data generation.

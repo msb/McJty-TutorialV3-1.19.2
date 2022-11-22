@@ -16,8 +16,7 @@ public class DataGenerators {
         boolean run = true;
         if (event.includeServer()) {
             generator.addProvider(run, new TutRecipes(generator));
-            // FIXME breaks datagen if uncommented
-//            generator.addProvider(run, new TutLootTables(generator));
+            generator.addProvider(run, new TutLootTables(generator));
             TutBlockTags blockTags = new TutBlockTags(generator, event.getExistingFileHelper());
             generator.addProvider(run, blockTags);
             generator.addProvider(run, new TutItemTags(generator, blockTags, event.getExistingFileHelper()));
