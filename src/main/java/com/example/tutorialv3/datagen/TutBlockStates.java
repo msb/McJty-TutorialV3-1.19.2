@@ -50,6 +50,8 @@ public class TutBlockStates extends BlockStateProvider {
         frame.texture("window", modLoc("block/powergen_window"));
         frame.texture("particle", modLoc("block/powergen_off"));
 
+        frame.renderType("translucent");
+
         createPowergenModel(Registration.POWERGEN.get(), frame);
     }
 
